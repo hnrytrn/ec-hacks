@@ -30,9 +30,30 @@ IVirtualButtonEventHandler
 		Debug.Log("OnButtonPressed: " + vb.VirtualButtonName);
 
 		switch (vb.VirtualButtonName) {
-		// Register button presed
-		case "register":
+		// EC Register button presed
+		case "ecregister":
 			Application.OpenURL ("http://2016.echacks.xyz/apply.html");
+			break;
+		
+		// MF apply button
+		case "mfapply":
+			Application.OpenURL ("https://www.magnetforensics.com/careers/");
+			break;
+		// MLH hack button
+		case "mlhhack":
+			Application.OpenURL ("https://mlh.io/seasons/na-2017/events");
+			break;
+		// facebook ec hacks button
+		case "fbec":
+			Application.OpenURL ("https://www.facebook.com/echacks/");
+			break;
+		// facebook magnet forensics  button
+		case "fbmagnet":
+			Application.OpenURL ("https://www.facebook.com/pages/Magnet-Forensics/204871079688864");
+			break;
+		// facebook mlh button
+		case "fbmlh":
+			Application.OpenURL ("https://www.facebook.com/MajorLeagueHacking/");
 			break;
 		}
 	}
@@ -40,7 +61,6 @@ IVirtualButtonEventHandler
 	// Called when the virtual button has just been released
 	public void OnButtonReleased(VirtualButtonAbstractBehaviour vb)
 	{
-		
 	}
 
 

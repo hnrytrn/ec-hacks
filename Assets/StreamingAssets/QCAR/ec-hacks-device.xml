@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="mlh-logo" size="0.250000 0.250000" />
+    <ImageTarget name="Magnet-Forensics-logo" size="0.250000 0.230272" />
     <ImageTarget name="ec-hacks-logo2" size="10.000000 10.000000" />
   </Tracking>
 </QCARConfig>
